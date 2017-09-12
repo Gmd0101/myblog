@@ -8,6 +8,9 @@ var session = require('express-session');
 var flash = require('connect-flash');
 var mongodb = require('mongodb');
 
+var crypto = require('crypto');
+
+
 
 var index = require('./routes/index');
 var users = require('./routes/users');
